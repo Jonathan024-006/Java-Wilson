@@ -118,7 +118,7 @@ public class Main {
     
 
     // Switch tradicional
-    int dia = 3;
+  /*   int dia = 3;
 
     switch (dia) {
         case 1:
@@ -144,7 +144,7 @@ public class Main {
             break;
         default:
             System.out.println("Día inválido");
-    }
+    } */
 
 
     // Expresión switch Mejorada
@@ -158,9 +158,25 @@ public class Main {
         case 7 -> "Domingo";
         default -> "Día inválido";
     }; */
-  /*   System.out.println(resultado); */
+   /* System.out.println(resultado); */
+/*    OperacionesAritmeticas op1 = new OperacionesAritmeticas();
+   op1.num1 = 5;
+   op1.num2 = 10;
+   op1.sumar(); */
 
-  
+/*     System.out.print("Ingrese su nombre ");
+    String nombre = sc.nextLine();
+
+    System.out.print("Ingrese su edad ");
+    int edad = sc.nextInt();
+
+   Persona personaCliente = new Persona(nombre, edad);
+   personaCliente.mostrarInformacion(); */
+
+OperacionesAritmeticas op = new OperacionesAritmeticas();
+
+op.Menu();
+
     sc.close();
     }
 }
